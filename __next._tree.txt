@@ -1,0 +1,4 @@
+:HL["/_next/static/chunks/cc5171f6b87834f6.css","style"]
+:HL["https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap","style"]
+:HL["https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap","style"]
+0:{"buildId":"V9jSpm2MRNGv_mnEhCwSp","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

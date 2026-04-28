@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- background -->
+  <rect width="1200" height="630" fill="#F8FAF9"/>
+
+  <!-- subtle ECG line baseline -->
+  <path d="M0 470 H280 L320 470 L350 420 L380 540 L410 380 L440 470 H1200"
+        stroke="#CCFBF1" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- wristband stub on the top edge -->
+  <rect x="96" y="0" width="120" height="10" rx="0" fill="#0F766E"/>
+
+  <!-- mark (teal tile) -->
+  <g transform="translate(96 96)">
+    <rect width="96" height="96" rx="20" fill="#0F766E"/>
+    <g transform="translate(8 8) scale(1.25)">
+      <path d="M6 36 H14 L18 28 L22 44 L26 22 L30 36 H36
+               C42 36 46 31 46 25
+               C46 19 41 16 36 18
+               C39 20 41 23 41 26
+               C41 30 38 32 35 32"
+            stroke="#FFFFFF" stroke-width="3.4"
+            stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M41 22 L36 30" stroke="#FFFFFF" stroke-width="2"
+            stroke-linecap="round" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="220" y="172"
+        font-family="General Sans, ui-sans-serif, system-ui"
+        font-size="78" font-weight="600" fill="#0F172A"
+        letter-spacing="-3">afyaly</text>
+
+  <!-- headline -->
+  <text x="96" y="290"
+        font-family="General Sans, ui-sans-serif, system-ui"
+        font-size="64" font-weight="600" fill="#0F172A"
+        letter-spacing="-1.8">One system for the whole hospital.</text>
+
+  <!-- subhead -->
+  <text x="96" y="350"
+        font-family="General Sans, ui-sans-serif, system-ui"
+        font-size="26" font-weight="400" fill="#475569"
+        letter-spacing="-0.3">Registration, triage, OPD &amp; IPD, pharmacy, lab, imaging,</text>
+  <text x="96" y="386"
+        font-family="General Sans, ui-sans-serif, system-ui"
+        font-size="26" font-weight="400" fill="#475569"
+        letter-spacing="-0.3">billing, SHA claims, and DHIS2 reporting on a single record.</text>
+
+  <!-- KEPH range pill -->
+  <g transform="translate(96 432)">
+    <rect width="320" height="44" rx="22" fill="#CCFBF1"/>
+    <circle cx="22" cy="22" r="5" fill="#0F766E"/>
+    <text x="40" y="29"
+          font-family="General Sans, ui-sans-serif, system-ui"
+          font-size="16" font-weight="500" fill="#0F766E"
+          letter-spacing="2">KEPH LEVEL 2  →  LEVEL 6</text>
+  </g>
+
+  <!-- footer strip -->
+  <rect x="0" y="582" width="1200" height="48" fill="#0F766E"/>
+  <text x="96" y="613"
+        font-family="JetBrains Mono, ui-monospace"
+        font-size="18" font-weight="500" fill="#FFFFFF"
+        letter-spacing="0.5">afyaly.cseco.co.ke</text>
+  <text x="1104" y="613" text-anchor="end"
+        font-family="General Sans, ui-sans-serif, system-ui"
+        font-size="16" font-weight="500" fill="#CCFBF1">Built on Weaverbird</text>
+</svg>
